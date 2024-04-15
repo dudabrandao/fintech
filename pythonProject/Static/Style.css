@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main-home{
+    background: rgb(2,0,107);
+    background: linear-gradient(180deg, rgba(2,0,107,1) 0%, rgba(87,142,229,1) 100%);
+    min-height: 100vh;
+}
+
+.main-home img{
+    display: block;
+    margin: 0 auto;
+    line-height: 0;
+    width: 450px;
+}
+
+.main-home p{
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.container {
+  text-align: center; /* Centraliza o conteúdo horizontalmente */
+}
+
+.botao-entrar, .botao-cadastrar {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  text-align: center;
+  font-family: "Alata", sans-serif;
+  width: 160px;
+  height: 40px;
+}
+
+.botao-entrar {
+  background-color: #FDC500;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+  color: #00296B;
+  font-size: 18px;
+  padding-bottom: 36px;
+}
+
+.botao-cadastrar {
+  background-color: #FDC500;
+  margin-top: 15px;
+  color: #00296B;
+  font-size: 18px;
+  padding-bottom: 36px;
+}
+
+.main-inicio{
+    background: rgb(70,115,168);
+    background: linear-gradient(180deg, rgba(70,115,168,1) 0%, rgba(0,41,107,1) 100%);
+    min-height: 100vh;
+}
+
+.main-inicio .dinheiro{
+    background-color: #FFC500;
+    height: 175px;
+}
+
+.main-inicio .dinheiro .titulo{
+    padding-top: 20px;
+    font-family: "Alata", sans-serif;
+    color: #003F88;
+    text-align: center;
+    font-size: 25px;
+}
+
+.main-inicio .dinheiro .valor{
+    font-family: "Inter", sans-serif;
+    color: #003F88;
+    text-align: center;
+    font-size: 50px;
+}
+
+.main-inicio .tabela{
+    display: flex;
+    margin: 0 auto;
+    gap: 20px;
+    background-color: #00296B;
+    width: 600px;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+    margin-top: -50px;
+}
+
+.main-inicio .tabela .receita .escrita{
+    font-family: "Inter", sans-serif;
+    font-style: italic;
+    color: white;
+}
+
+.main-inicio .tabela .receita p{
+    color: #FDC500;
+    margin-top: -13px;
+}
+
+.main-inicio .tabela .receita .numero{
+    margin-top: 10px;
+    font-family: "Inter", sans-serif;
+    color: #29E5FF;
+}
+
+.main-inicio .tabela .despesa .escrita{
+    font-family: "Inter", sans-serif;
+    font-style: italic;
+    color: white;
+}
+
+.main-inicio .tabela .despesa p{
+    color: #FDC500;
+    margin-top: -13px;
+}
+
+.main-inicio .tabela .despesa .numero{
+    margin-top: 10px;
+    font-family: "Inter", sans-serif;
+    color: #29E5FF;
+}
+
+.main-inicio .tabela .poupanca .escrita{
+    font-family: "Inter", sans-serif;
+    font-style: italic;
+    color: white;
+}
+
+.main-inicio .tabela .poupanca p{
+    color: #FDC500;
+    margin-top: -13px;
+}
+
+.main-inicio .tabela .poupanca .numero{
+    margin-top: 10px;
+    font-family: "Inter", sans-serif;
+    color: #29E5FF;
+}
+
+.main-inicio .atividades .container{
+    background-color: #00509D;
+    display: flex;
+    width: 350px;
+    height: 75px;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.main-inicio .atividades .container .bloco1 .nome{
+    color: white;
+    font-family: "Inter", sans-serif;
+    padding-top: 15px;
+    margin-left: 20px;
+}
+
+.main-inicio .atividades .container .bloco1 .data{
+    color: white;
+    font-family: "Inter", sans-serif;
+    margin-left: 12px;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.main-inicio .atividades .container .bloco2 .valor{
+    color: #29E5FF;
+    font-family: "Inter", sans-serif;
+    padding-top: 25px;
+    margin-right: 20px;
+}
